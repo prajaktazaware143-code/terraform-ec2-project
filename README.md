@@ -60,11 +60,13 @@ terraform apply
 
 📂 Project Structure
 
-├── provider.tf
-├── vpc.tf
-├── terraform.tf
-├── .gitignore
-└── README.md
+- **provider.tf** → AWS provider configuration  
+- **vpc.tf** → Networking resources (VPC, Subnet, IGW, Route Table)  
+- **terraform.tf** → Terraform backend and settings  
+- **s3.tf** → S3 bucket configuration  
+- **ec2.tf** → EC2 instance and related resources  
+- **.gitignore** → Ignored files  
+- **README.md** → Project documentation  
 
 💡 Key Highlights
 
